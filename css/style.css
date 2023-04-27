@@ -236,6 +236,14 @@ label{
  flex-direction: column;
  gap: 2rem;
 }
+.rental-form input{
+    background: url(/assets/images/chevron-down-regular-24.png)no-repeat;
+    background-position: right;
+    background-size: 15px;
+    background-position-x: 97%;
+    background-color: var(--bground-color);
+    padding: 10px 9px;
+}
 .rental-form{
     padding: 2rem;
     background-color: #ffffff;
@@ -328,7 +336,9 @@ padding: 1rem;
 .card-payment{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 2rem;
+    padding: 1rem;
 }
 .card-payment input{
     background-color: #ffffff;
@@ -356,14 +366,84 @@ padding: 1rem;
     height: 30px;
 }
 
+#credit{
+    margin-left: 0.4rem;
+    font-size: 11px;
+}
+@media screen and (max-width:576px){
+    .payment-form{
+        height: auto;
+        width: 350px;
+    }
+  
+}
+
+/* end of payment-form */
 
 
 
+/* confirmation */
+.confirmation{
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: auto;
+    width: 564px;
+}
+.confirmation-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.confirmation-check{
+    margin-top: 3rem;
+}
+
+.check-1{
+    background-color: var(--bground-color);
+    border-radius: 8px;
+    margin-top: 1rem;
+    display: flex;
+}
+.check-1 span{
+    width: 270px;
+margin-top: 1rem;
+}
+.check-1 input{
+    width: 70px;
+    height: auto;
+}
+.btn{
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    padding: 1.2rem 2.2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.btn-rent{
+    background-color: #3563E9;
+    color: #f6f7f9;
+}
+
+.confirmation-detail_end{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
 
 
+.bx-check-shield{
+    font-size: 23px;
+}
 
-
-
+@media screen and (max-width:576px){
+    .confirmation{
+        height: auto;
+        width: 350px;
+    }}
 
         /* footer */
 
@@ -440,7 +520,3 @@ padding: 1rem;
     font-size: 13px;
 }
 
-#credit{
-    margin-left: 0.4rem;
-    font-size: 11px;
-}
