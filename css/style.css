@@ -296,3 +296,151 @@ label{
             background-color: #ffffff;
             border-radius: 8px;
         }
+
+/* payment form */
+
+.payment-form{
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 564px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+   gap: 3rem;
+  flex-wrap: wrap;
+}
+.payment-form img{
+    width: 70px;
+    height: 20px;
+}
+
+.payment-visa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-body{
+padding: 1rem;
+    background-color: var(--bground-color);
+    border-radius: 8px;
+}
+.card-payment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.card-payment input{
+    background-color: #ffffff;
+    width: 240px;
+}
+.payment-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paypal,
+.bitcoin{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bground-color);
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 5px 5px;
+}
+
+.paypal img{
+    margin-top: 0.5rem;
+}
+.bitcoin img{
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+        /* footer */
+
+.footer{
+    background-color: #ffffff;
+    width: 100%;
+    height:auto;
+    padding: 64px;
+ 
+}
+
+.footer-detail{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    margin-bottom: 5rem;
+}
+@media screen and (max-width:965px){
+    .footer-detail{
+    flex-wrap: wrap;
+        gap: 9rem;
+    }
+}
+.footer-item ul li{
+    margin-top: 2.4rem;
+    font-size: 12px;
+    font-weight: 500;
+    color: #616060;
+}
+.footer-item h3{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-logo{
+
+    margin-bottom: 5rem;
+}
+.footer-logo p{
+    font-size: 13px;
+    margin-top: 2rem;
+}
+.main-footer{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #ebeef3;
+}
+.end-footer{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+   margin-top: 4rem;
+}
+
+@media screen and (max-width:568px){
+.privacy{
+    margin-top: 3rem;
+}
+}
+.end-footer p{
+    font-weight: 500;
+    font-size: 13px;
+}
+.privacy{
+    display: flex;
+    gap: 6rem;
+    
+}
+.privacy span{
+  
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#credit{
+    margin-left: 0.4rem;
+    font-size: 11px;
+}
